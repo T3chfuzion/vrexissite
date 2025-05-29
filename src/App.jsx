@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import logo from './assets/logo.webp'; 
 
 // Navbar Component
 function Navbar() {
@@ -9,7 +10,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-custom fixed-top">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          <img src="/logo.webp" height="40" alt="Vrexis Insights" />
+        <img src={logo} height="40" alt="Vrexis Insights" />
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span className="navbar-toggler-icon"></span>
