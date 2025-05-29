@@ -2,8 +2,6 @@
 
 🚀 **Vrexis Insights** is a modern, enterprise-grade service monitoring platform built with **React**, **Vite**, and **Bootstrap**. It provides real-time monitoring, JWT authentication, rate limiting, and an interactive dashboard for visualizing service status, latency, and uptime.
 
-![alt text](localhost_5173_-1.png)
-
 ---
 
 ## 🔥 Features
