@@ -1,12 +1,93 @@
-# React + Vite
+# Vrexis Insights
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Vrexis Insights** is a modern, enterprise-grade service monitoring platform built with **React**, **Vite**, and **Bootstrap**. It provides real-time monitoring, JWT authentication, rate limiting, and an interactive dashboard for visualizing service status, latency, and uptime.
 
-Currently, two official plugins are available:
+![alt text](localhost_5173_-1.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔥 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Real-time WebSocket Monitoring
+- 🔐 JWT Authentication & Authorization
+- 🛡️ Rate Limiting (Token Bucket Algorithm)
+- ⚡ Ping & HTTP Latency Tracking
+- 🌐 Multi-Protocol Support (HTTPS, IPs, Hostnames)
+- 📊 Interactive Dashboard UI (React + Bootstrap)
+- 📦 Self-hosted with secure-by-default architecture
+
+---
+
+## 🧪 Live Demo
+
+Try the interactive demo:
+
+[🔗 Live Demo Coming Soon](#)
+
+---
+
+## 📁 Folder Structure
+
+```
+
+VREXISSITE/
+├── public/             # Static assets (e.g., logo, favicons)
+├── src/                # React source code
+│   ├── assets/         # WebP logos, SVGs, etc.
+│   ├── App.jsx         # Main app component
+│   ├── components/     # (optional: reusable components)
+│   └── ...
+├── index.html          # HTML entry point for Vite
+├── vite.config.js      # Vite configuration
+└── README.md           # You're here!
+
+````
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Install dependencies
+
+```bash
+npm install
+````
+
+### 🔧 Start development server
+
+```bash
+npm run dev
+```
+
+### 🛠️ Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 💻 Tech Stack
+
+* **Frontend**: React, Vite, Bootstrap 5
+* **Backend (planned)**: GoLang (JWT, WebSocket, SQLite)
+* **Security**: HTTPS, JWT, Rate Limiting, Enterprise Headers
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## ✨ Credits
+
+Made with 💻 by [T3chfuzion](https://github.com/T3chfuzion)
+
+---
+
+## 🤝 Contribute
+
+Pull requests are welcome! Open an issue first to discuss what you would like to change.
+
