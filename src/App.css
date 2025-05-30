@@ -779,3 +779,12 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #a8a8a8;
 }
+
+/* Ensure readable text on dark badges */
+.badge.bg-success,
+.badge.bg-info,
+.badge.bg-dark,
+.badge.bg-primary,
+.badge.bg-warning {
+  color: #fff !important;
+}
