@@ -788,3 +788,13 @@
 .badge.bg-warning {
   color: #fff !important;
 }
+
+.badge.bg-success {
+  background-color: #28a745 !important;
+  color: #fff !important;
+}
+
+.badge.bg-info {
+  background-color: #17a2b8 !important;
+  color: #fff !important;
+}
