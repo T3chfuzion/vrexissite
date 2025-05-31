@@ -342,7 +342,7 @@ const App = () => {
             {[
               {
                 name: 'Personal',
-                price: 'Coming Soon',
+                price: 'Free',
                 period: '',
                 features: [
                   'Full source code access',
@@ -351,7 +351,7 @@ const App = () => {
                   'Basic monitoring features',
                   'Up to 5 services'
                 ],
-                buttonText: 'Get Notified',
+                buttonText: 'Download Now',
                 buttonClass: 'border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white'
               },
               {
